@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Data: raw Kaggle file (~95 MB) and the large CSV export are rebuilt by notebook 01
+data/raw/
+data/interim/
+data/processed/*.csv
+
+# Local helper files
+scratch_*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
